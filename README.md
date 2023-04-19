@@ -1,3 +1,3 @@
 # PhilinaRubia_JS3_Lab
-WeatherApp
+WeatherApp -
 Application which will show the weather information for a specific city.
