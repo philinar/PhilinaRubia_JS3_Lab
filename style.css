@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.temp-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: 4px solid greenyellow;
+    border-radius: 15px 0 15px 0;
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    background-color: lightgray;
+}
+
+input:focus {
+    background-color: lightgray;
+}
+
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.city-name {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.city-date {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.temp {
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 40px 0;
+    text-shadow: 1px 8px black;
+}
+
+.weather {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.high-low-temp {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
